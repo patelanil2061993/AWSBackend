@@ -2,11 +2,11 @@ version: 0.2
 phases:
   install:
     commands:
-      - cd client
       - npm install
   build:
     commands:
+      - npm test
       - npm run build
 artifacts:
-  base-directory: client/build
+  base-directory: server/build
   files: '**/*'
