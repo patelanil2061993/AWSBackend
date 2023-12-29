@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "start": "node index.js",  // or your entry file
-      "build": "tsc"  // or any build command specific to your project
+    "start": "node index.js",  
+    "build": "tsc"  
   },
   "keywords": [],
   "author": "",
